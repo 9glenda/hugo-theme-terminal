@@ -1,3 +1,4 @@
+exit();
 const mobileQuery = getComputedStyle(document.body).getPropertyValue("--phoneWidth");
 const isMobile = () => window.matchMedia(mobileQuery).matches;
 
